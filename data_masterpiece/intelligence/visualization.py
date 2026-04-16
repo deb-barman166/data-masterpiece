@@ -27,9 +27,9 @@ import matplotlib.font_manager as fm
 from data_masterpiece.utils.logger import get_logger
 
 # -- font setup --
-fm.fontManager.addfont("/usr/share/fonts/truetype/chinese/SimHei.ttf")
-fm.fontManager.addfont("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")
-plt.rcParams["font.sans-serif"] = ["SimHei", "DejaVu Sans"]
+#fm.fontManager.addfont("/usr/share/fonts/truetype/chinese/SimHei.ttf")
+#fm.fontManager.addfont("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")
+#plt.rcParams["font.sans-serif"] = ["SimHei", "DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
 # -- colour palette --
