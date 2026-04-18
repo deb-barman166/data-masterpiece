@@ -1,0 +1,83 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# DATA MASTERPIECE V2 - REQUIREMENTS
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# 📦 Core Requirements
+# Install with: pip install -r requirements.txt
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Core Data Science Stack
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Optional: Deep Learning (uncomment if you want neural networks)
+# tensorflow>=2.8.0
+# keras>=2.8.0
+# torch>=1.10.0
+
+# Optional: Advanced ML Libraries (uncomment for XGBoost, LightGBM, etc.)
+# xgboost>=1.5.0
+# lightgbm>=3.3.0
+# catboost>=1.0.0
+
+# Data Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.4.0
+
+# Report Generation
+# (uses standard libraries only - no additional requirements)
+
+# File Handling
+openpyxl>=3.0.0          # For Excel files
+xlrd>=2.0.1              # For older Excel files
+python-dateutil>=2.8.0   # For date parsing
+
+# HTTP Requests (for loading data from URLs)
+requests>=2.25.0
+
+# Optional: Interactive Reports
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
+
+# Development & Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Code Quality
+black>=22.0.0
+flake8>=4.0.0
+isort>=5.10.0
+
+# Documentation
+# sphinx>=4.0.0
+# sphinx-rtd-theme>=1.0.0
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# MINIMAL INSTALL (For basic usage)
+# ═══════════════════════════════════════════════════════════════════════════════
+# If you just want the basic functionality, install only these:
+#
+# pip install numpy pandas scikit-learn matplotlib requests openpyxl
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# INSTALLATION GUIDE FOR BEGINNERS
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# Option 1: Install Everything (Recommended)
+#   pip install -r requirements.txt
+#
+# Option 2: Minimal Install (For basic usage)
+#   pip install numpy pandas scikit-learn matplotlib requests openpyxl
+#
+# Option 3: Using Conda
+#   conda install numpy pandas scikit-learn matplotlib seaborn requests openpyxl
+#
+# ═══════════════════════════════════════════════════════════════════════════════
